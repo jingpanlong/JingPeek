@@ -1,0 +1,107 @@
+<svg xmlns="http://www.w3.org/2000/svg" viewBox="0 0 1200 420" width="1200" height="420" role="img" aria-label="JingPeek - see a file before you open it">
+  <defs>
+    <linearGradient id="bg" x1="0" y1="0" x2="1" y2="1">
+      <stop offset="0" stop-color="#f9fbff"/>
+      <stop offset="1" stop-color="#e8f0ff"/>
+    </linearGradient>
+    <linearGradient id="accent" x1="0" y1="0" x2="1" y2="0">
+      <stop offset="0" stop-color="#3973ed"/>
+      <stop offset="1" stop-color="#6f9df7"/>
+    </linearGradient>
+    <clipPath id="frame"><rect x="0" y="0" width="1200" height="420" rx="20"/></clipPath>
+  </defs>
+
+  <g clip-path="url(#frame)">
+    <rect width="1200" height="420" fill="url(#bg)"/>
+    <circle cx="1090" cy="-40" r="260" fill="#dbe8ff" opacity="0.55"/>
+    <circle cx="60" cy="410" r="150" fill="#dce9ff" opacity="0.45"/>
+    <rect x="0" y="0" width="9" height="420" fill="url(#accent)"/>
+
+    <!-- left: copy -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <text x="64" y="70" font-size="14" font-weight="700" letter-spacing="2.4" fill="#3973ed">JINGPEEK / QUICK FILE PREVIEW FOR WINDOWS</text>
+      <text x="62" y="146" font-size="48" font-weight="700" fill="#1d3050">See the file.</text>
+      <text x="62" y="200" font-size="48" font-weight="700" fill="#1d3050">Before you open it.</text>
+      <text x="64" y="245" font-size="17" fill="#5c7091">Select a file in Explorer, press Space, and a floating</text>
+      <text x="64" y="270" font-size="17" fill="#5c7091">preview appears right beside it. No upload, no round trip.</text>
+
+      <g>
+        <rect x="64" y="302" width="132" height="34" rx="17" fill="#ffffff" stroke="#c9d9f5"/>
+        <circle cx="83" cy="319" r="5" fill="#2fb37a"/>
+        <text x="97" y="324" font-size="13" font-weight="600" fill="#34507c">100% offline</text>
+
+        <rect x="208" y="302" width="120" height="34" rx="17" fill="#ffffff" stroke="#c9d9f5"/>
+        <circle cx="227" cy="319" r="5" fill="#3973ed"/>
+        <text x="241" y="324" font-size="13" font-weight="600" fill="#34507c">MIT licensed</text>
+
+        <rect x="340" y="302" width="164" height="34" rx="17" fill="#ffffff" stroke="#c9d9f5"/>
+        <circle cx="359" cy="319" r="5" fill="#f2a33c"/>
+        <text x="373" y="324" font-size="13" font-weight="600" fill="#34507c">80+ file formats</text>
+      </g>
+
+      <text x="64" y="380" font-size="13" fill="#8092ad">Windows 10 / 11 x64  ·  Python + Qt for Python  ·  v1.6.0</text>
+    </g>
+
+    <!-- right: file list card -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <rect x="646" y="66" width="340" height="292" rx="16" fill="#c5d5f0" opacity="0.45"/>
+      <rect x="640" y="60" width="340" height="292" rx="16" fill="#ffffff" stroke="#dbe5f6"/>
+      <text x="664" y="93" font-size="12" font-weight="700" letter-spacing="1.2" fill="#8b9cb8">PROJECT FILES</text>
+      <line x1="664" y1="106" x2="956" y2="106" stroke="#edf2fa"/>
+
+      <g>
+        <rect x="660" y="122" width="300" height="46" rx="10" fill="#f7faff"/>
+        <rect x="674" y="134" width="22" height="22" rx="5" fill="#e4edff"/>
+        <text x="682" y="150" font-size="11" font-weight="700" fill="#3973ed">SVG</text>
+        <text x="710" y="151" font-size="14" fill="#42577b">cover.svg</text>
+
+        <rect x="660" y="176" width="300" height="46" rx="10" fill="#eaf2ff" stroke="#b9d0fb"/>
+        <rect x="674" y="188" width="22" height="22" rx="5" fill="#3973ed"/>
+        <text x="680" y="204" font-size="11" font-weight="700" fill="#ffffff">MD</text>
+        <text x="710" y="205" font-size="14" font-weight="600" fill="#244d8c">01-welcome.md</text>
+
+        <rect x="660" y="230" width="300" height="46" rx="10" fill="#f7faff"/>
+        <rect x="674" y="242" width="22" height="22" rx="5" fill="#f7e6ee"/>
+        <text x="680" y="258" font-size="11" font-weight="700" fill="#c26c8c">PPT</text>
+        <text x="710" y="259" font-size="14" fill="#42577b">quarterly.pptx</text>
+
+        <rect x="660" y="284" width="300" height="46" rx="10" fill="#f7faff"/>
+        <rect x="674" y="296" width="22" height="22" rx="5" fill="#e3f5ec"/>
+        <text x="680" y="312" font-size="11" font-weight="700" fill="#2c9b6f">XLS</text>
+        <text x="710" y="313" font-size="14" fill="#42577b">budget.xlsx</text>
+      </g>
+
+    </g>
+
+    <!-- space key badge -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <rect x="664" y="356" width="150" height="46" rx="10" fill="#1d3050"/>
+      <text x="739" y="385" font-size="16" font-weight="700" letter-spacing="2" fill="#ffffff" text-anchor="middle">SPACE</text>
+    </g>
+
+    <!-- floating preview window -->
+    <g font-family="Segoe UI, Helvetica, Arial, sans-serif">
+      <rect x="852" y="150" width="316" height="230" rx="14" fill="#b9ccef" opacity="0.40"/>
+      <rect x="846" y="144" width="316" height="230" rx="14" fill="#ffffff" stroke="#cddcf5"/>
+      <rect x="846" y="144" width="316" height="40" rx="14" fill="#f6f9ff"/>
+      <rect x="846" y="170" width="316" height="14" fill="#f6f9ff"/>
+      <line x1="846" y1="184" x2="1162" y2="184" stroke="#e6edf9"/>
+      <circle cx="868" cy="164" r="4" fill="#ffb4b4"/>
+      <circle cx="884" cy="164" r="4" fill="#ffd79b"/>
+      <circle cx="900" cy="164" r="4" fill="#a8dfbf"/>
+      <text x="920" y="169" font-size="12" font-weight="600" fill="#4a6087">01-welcome.md</text>
+      <rect x="1098" y="153" width="52" height="22" rx="6" fill="#3973ed"/>
+      <text x="1124" y="168" font-size="11" font-weight="600" fill="#ffffff" text-anchor="middle">Open</text>
+
+      <text x="870" y="220" font-size="19" font-weight="700" fill="#203454">JingPeek</text>
+      <text x="870" y="244" font-size="11" fill="#7c8da7">A small window for everything inside.</text>
+      <rect x="870" y="260" width="228" height="7" rx="3.5" fill="#e7edf7"/>
+      <rect x="870" y="276" width="196" height="7" rx="3.5" fill="#e7edf7"/>
+      <rect x="870" y="292" width="214" height="7" rx="3.5" fill="#e7edf7"/>
+      <rect x="870" y="316" width="266" height="32" rx="7" fill="#eef4ff"/>
+      <rect x="882" y="328" width="112" height="8" rx="4" fill="#9fbcf0"/>
+      <rect x="1004" y="328" width="80" height="8" rx="4" fill="#c7d9f7"/>
+      <text x="870" y="366" font-size="10" fill="#9aa9bf">Esc / Space to dismiss  ·  Arrows to browse</text>
+    </g>
+  </g>
+</svg>

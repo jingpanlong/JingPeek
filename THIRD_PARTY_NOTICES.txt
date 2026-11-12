@@ -1,0 +1,52 @@
+JingPeek uses dynamically linked third-party components.
+
+Python: PSF license, https://www.python.org/
+Qt / PySide6 / Shiboken6 6.8.3: LGPLv3 / GPL with exceptions, https://www.qt.io/licensing/
+Qt source: https://download.qt.io/archive/qt/6.8/6.8.3/submodules/
+PySide source: https://download.qt.io/official_releases/QtForPython/pyside6/PySide6-6.8.3-src/
+Qt Multimedia FFmpeg: LGPLv2.1-or-later (Qt's bundled shared build).
+FFmpeg source: https://ffmpeg.org/download.html
+Pygments: BSD-2-Clause, https://pygments.org/
+Python-Markdown: BSD-3-Clause, https://python-markdown.github.io/
+python-docx: MIT, https://github.com/python-openxml/python-docx
+openpyxl: MIT, https://openpyxl.readthedocs.io/
+python-pptx: MIT, https://github.com/scanny/python-pptx
+py7zr: LGPLv2.1+, https://github.com/miurahr/py7zr
+rarfile: ISC, https://github.com/markokr/rarfile
+Pillow: MIT-CMU, https://python-pillow.org/
+pywin32: PSF, https://github.com/mhammond/pywin32
+comtypes: MIT, https://github.com/enthought/comtypes
+PyInstaller bootloader: GPL with linking exception, https://pyinstaller.org/
+Inno Setup installer: Inno Setup license, https://jrsoftware.org/files/is/license.txt
+
+Version 1.3 compatibility components:
+imageio-ffmpeg 0.6.0 Python wrapper: BSD-2-Clause, https://github.com/imageio/imageio-ffmpeg
+Bundled standalone FFmpeg executable: ffmpeg 7.1-essentials_build-www.gyan.dev,
+GPLv3-or-later, invoked as a separate cancellable process (not linked into JingPeek).
+Full GPL text and the binary's exact build configuration are in licenses/FFmpeg-CLI/.
+Upstream source: https://ffmpeg.org/releases/ffmpeg-7.1.tar.xz
+Build recipes and upstream distribution: https://github.com/GyanD/codexffmpeg
+Source/build metadata for imageio 0.6.0: https://github.com/imageio/imageio-ffmpeg/tree/v0.6.0
+pillow-heif 1.1.1: BSD-3-Clause; bundled libheif/libde265/x265 retain their respective
+licenses. See licenses/pillow_heif/ and https://github.com/bigcat88/pillow_heif
+xlrd 2.0.2: BSD-3-Clause, https://github.com/python-excel/xlrd
+
+Full license texts from the build environment, including transitive dependencies,
+are collected in licenses/. Installed edition stores these in _internal/licenses/.
+
+The original application source and build scripts are supplied in the source ZIP.
+You may modify, rebuild, and relink the application with compatible modified LGPL
+libraries. The installed edition uses replaceable shared Qt DLLs. For the single
+file edition, use the supplied source/build script to produce a modified bundle.
+No restriction is imposed on reverse engineering for debugging modifications to
+LGPL components. Third-party trademarks belong to their respective owners.
+
+Version 1.4 Office rendering component:
+LibreOffice 26.8.2, Copyright The Document Foundation and contributors.
+Primary license: Mozilla Public License 2.0; bundled components retain their own
+licenses. Complete notices: office_runtime/LICENSE.html, license.txt and NOTICE.
+Executed as an isolated standalone process; no system installation is performed.
+Upstream source: https://download.documentfoundation.org/libreoffice/src/26.8.2/
+Pinned official MSI URL and SHA-256: prepare_office_engine.ps1 and
+office_runtime/engine-manifest.json.
+LibreOffice is a registered trademark of The Document Foundation.

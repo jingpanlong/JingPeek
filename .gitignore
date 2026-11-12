@@ -1,0 +1,31 @@
+# Python
+__pycache__/
+*.py[cod]
+*.egg-info/
+.venv/
+venv/
+.pytest_cache/
+.mypy_cache/
+
+# Build outputs (binaries are published as GitHub Release assets)
+build/
+dist/
+stage/
+office_runtime/
+release/
+*.exe
+*.msi
+*.zip
+*.7z
+*.log
+
+# Local runtime state
+app.log
+*.local.json
+
+# OS / editor
+Thumbs.db
+.DS_Store
+.idea/
+.vscode/
+*.swp
